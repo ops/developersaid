@@ -1,6 +1,6 @@
 # Developers' Aid for VIC-20
 
-** Hacked together by ops in 2019 **
+**Hacked together by ops in 2019**
 
 Developers' Aid is a cartridge for VIC-20 developers to help testing and debugging on real VIC-20 HW.
 
@@ -9,6 +9,8 @@ It is based on
 - [Programmer's Aid](http://sleepingelephant.com/denial/wiki/index.php?title=VIC-1212_Programmers_Aid_Cartridge) cartridge
 - [Over5](http://www.kahlin.net/daniel/over5/) transferring program by Daniel Kahlin
 - C'mon Machine Code Monitor by Aleksi Eeben
+
++ some additional features.
 
 # Documentation
 
