@@ -10,7 +10,6 @@ It is based on
 - [Over5](http://www.kahlin.net/daniel/over5/) transferring program by Daniel Kahlin
 - C'mon Machine Code Monitor by Aleksi Eeben
 
-+ some additional features.
 
 # Documentation
 
@@ -22,15 +21,15 @@ Over5 [documentation](https://github.com/ops/over5/tree/master/doc)
 
 Additional commands:
 
-| Command | Description |
-| --- | --- |
-| OLD | Recover a BASIC program |
-| CMON | Start Machine Code Monitor |
-| O5RCV | Receive a file from host via serial line |
-| O5SND | Send a file to host via serial line |
+| Command   | Description |
+| --------- | ----------- |
+| OLD       | Recover a BASIC program |
+| CMON      | Start Machine Code Monitor |
+| O5RCV     | Receive a file from host via serial line |
+| O5SND     | Send a file to host via serial line |
 | DIRECTORY | Display disk directly to the screen |
-| DISKCMD | Send disk command to the drive or read status|
-| BASCAT | Display BASIC program directly to screen |
+| DISKCMD   | Send disk command to the drive or read status|
+| BASCAT    | Display BASIC program directly to screen |
 
 # Releases
 
