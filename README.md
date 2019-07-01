@@ -1,6 +1,6 @@
 # Developers' Aid for VIC-20
 
-* Hacked together by ops in 2019 *
+** Hacked together by ops in 2019 **
 
 Developers' Aid is a cartridge for VIC-20 developers to help testing and debugging on real VIC-20 HW.
 
@@ -26,7 +26,7 @@ Additional commands:
 | CMON | Start Machine Code Monitor |
 | O5RCV | Receive a file from host via serial line |
 | O5SND | Send a file to host via serial line |
-| DIRECTORY | Display disk direrecty to the screen |
+| DIRECTORY | Display disk directly to the screen |
 | DISKCMD | Send disk command to the drive or read status|
 | BASCAT | Display BASIC program directly to screen |
 
