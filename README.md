@@ -7,16 +7,18 @@ Developers' Aid is a cartridge for VIC-20 developers to help testing and debuggi
 It is based on
 
 - [Programmer's Aid](http://sleepingelephant.com/denial/wiki/index.php?title=VIC-1212_Programmers_Aid_Cartridge) cartridge
-- [Over5](http://www.kahlin.net/daniel/over5/) transferring program
-- CMON Machine Code Monitor
+- [Over5](http://www.kahlin.net/daniel/over5/) transferring program by Daniel Kahlin
+- C'mon Machine Code Monitor by Aleksi Eeben
 
 # Documentation
 
-http://www.zimmers.net/anonftp/pub/cbm/vic20/manuals/VIC_1212_Programmers_Aid.pdf
+[Manual](http://www.zimmers.net/anonftp/pub/cbm/vic20/manuals/VIC_1212_Programmers_Aid.pdf) for the original Programmer's Aid
 
-http://www.zimmers.net/anonftp/pub/cbm/vic20/programming/cmon.txt
+[Manual](http://www.zimmers.net/anonftp/pub/cbm/vic20/programming/cmon.txt) for C'mon
 
-https://github.com/ops/over5/tree/master/doc
+Over5 [documentation](https://github.com/ops/over5/tree/master/doc)
+
+Additional commands:
 
 | Command | Description |
 | --- | --- |
@@ -24,3 +26,4 @@ https://github.com/ops/over5/tree/master/doc
 
 # Releases
 
+## V0.1
