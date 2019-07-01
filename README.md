@@ -1,6 +1,6 @@
 # Developers' Aid for VIC-20
 
-Hacked together by ops 2019
+* Hacked together by ops in 2019 *
 
 Developers' Aid is a cartridge for VIC-20 developers to help testing and debugging on real VIC-20 HW.
 
@@ -22,8 +22,18 @@ Additional commands:
 
 | Command | Description |
 | --- | --- |
-| OLD | old |
+| OLD | Recover a BASIC program |
+| CMON | Start Machine Code Monitor |
+| O5RCV | Receive a file from host via serial line |
+| O5SND | Send a file to host via serial line |
+| DIRECTORY | Display disk direrecty to the screen |
+| DISKCMD | Send disk command to the drive or read status|
+| BASCAT | Display BASIC program directly to screen |
 
 # Releases
 
-## V0.1
+## Release v0.1 (2019-07-xx)
+
+Initial release.
+
+Download [devaid-01.zip](releases/da_v1.0.zip).
