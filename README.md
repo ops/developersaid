@@ -10,7 +10,6 @@ It is based on
 - [Over5](http://www.kahlin.net/daniel/over5/) transferring program by Daniel Kahlin
 - C'mon Machine Code Monitor by Aleksi Eeben
 
-
 # Documentation
 
 [Manual](http://www.zimmers.net/anonftp/pub/cbm/vic20/manuals/VIC_1212_Programmers_Aid.pdf) for the original Programmer's Aid
@@ -29,7 +28,6 @@ Additional commands:
 | O5SND     | Send a file to host via serial line |
 | DIRECTORY | Display disk directly to the screen |
 | DISKCMD   | Send disk command to the drive or read status|
-| BASCAT    | Display BASIC program directly to screen |
 
 # Releases
 
