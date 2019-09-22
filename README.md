@@ -2,7 +2,8 @@
 
 **Hacked together by ops in 2019**
 
-Developers' Aid is a cartridge for VIC-20 developers to help testing and debugging on real VIC-20 HW.
+Developers' Aid is a cartridge for VIC-20 developers to help testing and
+debugging software on real VIC-20 hardware.
 
 It is based on
 
@@ -29,9 +30,26 @@ Additional commands:
 | DIRECTORY | Display disk directly to the screen |
 | DISKCMD   | Send disk command to the drive or read status|
 
+# Serial Hardware
+
+File transfer between host computer and VIC-20 needs serial cable connection.
+VIC-20 user port has built in RS-232 interface but it uses TTL signal
+levels (0 to 5V) rather than normal RS-232 -12 to 12 voltage range.
+
+[VIC-1011A RS-232 adapter](http://sleepingelephant.com/denial/wiki/index.php?title=VIC-1011A_RS232C_adapter)
+allows standard RS-232 devices to be connected to VIC-20. However, device
+can be hard to find nowadays. In addition, many modern PCs no longer
+have a serial port.
+
+Fortunately, there a simple and cheap alternative: USB to TTL converter.
+
+![CP210](cp210x.jpg)
+
+![PL2303](pl2303.jpg)
+
 # Releases
 
-## Release v0.1 (2019-07-xx)
+## Release v0.1 (2019-09-xx)
 
 Initial release.
 
