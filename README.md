@@ -27,7 +27,7 @@ Additional commands:
 | CMON      | Start Machine Code Monitor |
 | O5RCV     | Receive a file from host via serial line |
 | O5SND     | Send a file to host via serial line |
-| DIRECTORY | Display disk directly to the screen |
+| DIRECTORY | Display disk direcrory directly to the screen |
 | DISKCMD   | Send disk command to the drive or read status|
 
 # Serial Hardware
@@ -41,11 +41,18 @@ allows standard RS-232 devices to be connected to VIC-20. However, device
 can be hard to find nowadays. In addition, many modern PCs no longer
 have a serial port.
 
-Fortunately, there a simple and cheap alternative: USB to TTL converter.
+Fortunately, there is a simple and cheap alternative: USB to TTL serial
+converter.
+
+I have tested two different converters with Linux and both work well.
 
 ![CP210](cp210x.jpg)
 
+CP210 chip based converter.
+
 ![PL2303](pl2303.jpg)
+
+PL203 chip based converter.
 
 # Releases
 
