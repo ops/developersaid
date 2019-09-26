@@ -66,6 +66,6 @@ See over5 file transfer in action!
 
 ## Release v0.1 (2019-09-xx)
 
-Initial release.
+Initial release for testing.
 
-Download [devaid-01.zip](releases/da_v1.0.zip).
+Download [devaid-v0.1.zip](devaid-v0.1.zip).
