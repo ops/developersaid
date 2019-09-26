@@ -64,7 +64,7 @@ See over5 file transfer in action!
 
 # Releases
 
-## Release v0.1 (2019-09-xx)
+## Release v0.1 (2019-09-26)
 
 Initial release for testing.
 
