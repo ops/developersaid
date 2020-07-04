@@ -1,14 +1,15 @@
-# Developers' Aid for VIC-20
+# Developer's Aid for VIC-20
 
-**Hacked together by ops in 2019**
+**Hacked together by ops in 2019-2020**
 
-Developers' Aid is a cartridge for VIC-20 developers to help testing and
+Developer's Aid is a cartridge for VIC-20 developers to help testing and
 debugging software on real VIC-20 hardware.
 
 It is based on
 
 - [Programmer's Aid](http://sleepingelephant.com/denial/wiki/index.php?title=VIC-1212_Programmers_Aid_Cartridge) cartridge
-- [Over5](http://www.kahlin.net/daniel/over5/) transferring program by Daniel Kahlin
+- [Over5](http://www.kahlin.net/daniel/over5/) transferring program
+by Daniel Kahlin
 - C'mon Machine Code Monitor by Aleksi Eeben
 
 ![START_SCREEN](screenshot-01.png)
@@ -17,7 +18,8 @@ It is based on
 
 [Manual](http://www.zimmers.net/anonftp/pub/cbm/vic20/manuals/VIC_1212_Programmers_Aid.pdf) for the original Programmer's Aid
 
-[Manual](http://www.zimmers.net/anonftp/pub/cbm/vic20/programming/cmon.txt) for C'mon
+[Manual](http://www.zimmers.net/anonftp/pub/cbm/vic20/programming/cmon.txt)
+for C'mon
 
 Over5 [documentation](https://github.com/ops/over5/tree/master/doc)
 
@@ -69,3 +71,9 @@ See over5 file transfer in action!
 Initial release for testing.
 
 Download [devaid-v0.1.zip](devaid-v0.1.zip).
+
+## Release v0.2 (2020-07-04)
+
+Second release for testing.
+
+Download [devaid-v0.2.zip](devaid-v0.2.zip).
