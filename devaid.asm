@@ -163,7 +163,7 @@ TRACELN = $03E4                 ; to $03F1 - TRACE/STEP line numbers
 
         * = $a000-2
 
-        .WORD *                 ; Load address
+        .WORD $a000             ; Load address
 
         .WORD dainit
         .WORD PANMI
