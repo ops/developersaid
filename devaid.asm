@@ -1,11 +1,11 @@
 ;***********************************************************************************;
 ;***********************************************************************************;
 ;
-; Developers' Aid for VIC-20
-; Hacked together by ops 2019
+; Developer's Aid for VIC-20
+; Hacked together by ops 2019-2020
 
-; Based on Programmers' Aid cartridge and
-; The almost completely commented Programmers' Aid ROM disassembly. v1.0
+; Based on Programmer's Aid cartridge and
+; The almost completely commented Programmer's Aid ROM disassembly. v1.0
 ; By Simon Rowe <srowe@mose.org.uk>.
 
 ; C'mon - Machine Code Monitor for Commodore VIC-20 - v1.0
@@ -161,7 +161,9 @@ TRACELN = $03E4                 ; to $03F1 - TRACE/STEP line numbers
 ;
 ; Programmers' Aid ROM start
 
-        * = $a000
+        * = $a000-2
+
+        .WORD *                 ; Load address
 
         .WORD dainit
         .WORD PANMI
@@ -831,7 +833,6 @@ KEYWDS
         .BYT "O5RC",'V'+$80     ; O5RCV
         .BYT "DIRECTOR",'Y'+$80 ; DIRECTORY
         .BYT "DISKCM",'D'+$80   ; DISKCMD
-        .BYT "BASCA",'T'+$80    ; BASCAT
         .BYT $00
 
 
@@ -863,7 +864,6 @@ L73EE   .BYT >L740E-1           ; perform RUN (MSB)
         .BYT >PERFORM_O5RCV-1   ; perform O5RCV (MSB)
         .BYT >PERFORM_DIRECTORY-1 ; perform DIRECTORY (MSB)
         .BYT >PERFORM_DISKCMD-1 ; perform DISKCMD (MSB)
-        .BYT >PERFORM_BASCAT-1  ; perform BASCAT (MSB)
 
 L73FE   .BYT <L740E-1           ; perform RUN (LSB)
         .BYT <L7808-1           ; perform AUTO (LSB)
@@ -888,7 +888,6 @@ L73FE   .BYT <L740E-1           ; perform RUN (LSB)
         .BYT <PERFORM_O5RCV-1   ; perform O5RCV (LSB)
         .BYT <PERFORM_DIRECTORY-1 ; perform DIRECTORY (LSB)
         .BYT <PERFORM_DISKCMD-1 ; perform DISKCMD (LSB)
-        .BYT <PERFORM_BASCAT-1  ; perform BASCAT (LSB)
 
 
 ;***********************************************************************************;
@@ -2916,11 +2915,6 @@ endofover5code
         ; yes, set it again
         * = $b400
         .bin 2,0,"cmon-46080.prg"
-
-;***********************************************************************************;
-
-PERFORM_BASCAT
-        jmp DOREADY
 
 ;***********************************************************************************;
 
