@@ -1,2 +1,1 @@
-# developersaid
-Developers' Aid
+https://ops.github.io/developersaid/
