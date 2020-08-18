@@ -3,7 +3,7 @@
 ;** Copyright (c) 1995, 1996, 2002 Daniel Kahlin <daniel@kahlin.net>
 ;** Written by Daniel Kahlin <daniel@kahlin.net>
 ;**
-;** Modified for Developers' Aid by ops
+;** Modified for Developer's Aid by ops
 ;**
 ;** FastRS - (for serialcable)          38400 8N2
 ;** (conforms to the Over5 SIMPLEREAD/SIMPLEWRITE protocol)

@@ -1795,7 +1795,7 @@ L791A   JSR READPTR             ; read through temporary pointer
 L7929   RTS
 
 BANNER
-        .BYT $0D," DEVELOPERS' AID V",DA_VERSION,$0D,$00
+        .BYT $0D," DEVELOPER'S AID V",DA_VERSION,$0D,$00
 
 
 ;***********************************************************************************;
@@ -2789,7 +2789,7 @@ L7FED   DEC VARTAB              ; decrement start of variables low byte
 
 ;***********************************************************************************;
 ;
-; Developers' Aid
+; Developer's Aid
 
 dainit
         ; Kernel Init
